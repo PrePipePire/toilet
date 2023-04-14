@@ -1,0 +1,22 @@
+C:\Users\tahun\Downloads\CS02-main\Toilet\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\tahun\Downloads\CS02-main\Toilet\bin\Debug\WindowsFormsApp1.exe
+C:\Users\tahun\Downloads\CS02-main\Toilet\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\tahun\Downloads\CS02-main\Toilet\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\tahun\Downloads\CS02-main\Toilet\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\tahun\Downloads\CS02-main\Toilet\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\tahun\Downloads\CS02-main\Toilet\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\tahun\Downloads\CS02-main\Toilet\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\tahun\Downloads\CS02-main\Toilet\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\tahun\Downloads\CS02-main\Toilet\obj\Debug\WindowsFormsApp1.exe
+C:\Users\tahun\Downloads\CS02-main\Toilet\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\tahun\OneDrive\바탕 화면\CS02-main\Toilet\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\tahun\OneDrive\바탕 화면\CS02-main\Toilet\bin\Debug\WindowsFormsApp1.exe
+C:\Users\tahun\OneDrive\바탕 화면\CS02-main\Toilet\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\tahun\OneDrive\바탕 화면\CS02-main\Toilet\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\tahun\OneDrive\바탕 화면\CS02-main\Toilet\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\tahun\OneDrive\바탕 화면\CS02-main\Toilet\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\tahun\OneDrive\바탕 화면\CS02-main\Toilet\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\tahun\OneDrive\바탕 화면\CS02-main\Toilet\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\tahun\OneDrive\바탕 화면\CS02-main\Toilet\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\tahun\OneDrive\바탕 화면\CS02-main\Toilet\obj\Debug\WindowsFormsApp1.exe
+C:\Users\tahun\OneDrive\바탕 화면\CS02-main\Toilet\obj\Debug\WindowsFormsApp1.pdb
