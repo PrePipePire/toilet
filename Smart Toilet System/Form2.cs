@@ -39,8 +39,8 @@ namespace Smart_Toilet_System
 
         private async void Form2_Load(object sender, EventArgs e)
         {
-            used.Text = userinck.ToString();
-            empty.Text = useroutck.ToString();
+            lblused.Text = userinck.ToString();
+            lblempty.Text = useroutck.ToString();
 
             client = new FireSharp.FirebaseClient(config);
             if (client != null)
@@ -66,8 +66,8 @@ namespace Smart_Toilet_System
                                 userinck += 1;
                                 useroutck -= 1;
                             }
-                            used.Text = userinck.ToString();
-                            empty.Text = useroutck.ToString();
+                            lblused.Text = userinck.ToString();
+                            lblempty.Text = useroutck.ToString();
                         }
                     }
                     else
@@ -82,8 +82,8 @@ namespace Smart_Toilet_System
                                 userinck -= 1;
                                 useroutck += 1;
                             }
-                            used.Text = userinck.ToString();
-                            empty.Text = useroutck.ToString();
+                            lblused.Text = userinck.ToString();
+                            lblempty.Text = useroutck.ToString();
                         }
                     }
 
@@ -99,8 +99,8 @@ namespace Smart_Toilet_System
                                 userinck += 1;
                                 useroutck -= 1;
                             }
-                            used.Text = userinck.ToString();
-                            empty.Text = useroutck.ToString();
+                            lblused.Text = userinck.ToString();
+                            lblempty.Text = useroutck.ToString();
                         }
                     }
                     else
@@ -115,8 +115,8 @@ namespace Smart_Toilet_System
                                 userinck -= 1;
                                 useroutck += 1;
                             }
-                            used.Text = userinck.ToString();
-                            empty.Text = useroutck.ToString();
+                            lblused.Text = userinck.ToString();
+                            lblempty.Text = useroutck.ToString();
                         }
                     }
 
@@ -132,8 +132,8 @@ namespace Smart_Toilet_System
                                 userinck += 1;
                                 useroutck -= 1;
                             }
-                            used.Text = userinck.ToString();
-                            empty.Text = useroutck.ToString();
+                            lblused.Text = userinck.ToString();
+                            lblempty.Text = useroutck.ToString();
                         }
                     }
                     else
@@ -148,8 +148,8 @@ namespace Smart_Toilet_System
                                 userinck -= 1;
                                 useroutck += 1;
                             }
-                            used.Text = userinck.ToString();
-                            empty.Text = useroutck.ToString();
+                            lblused.Text = userinck.ToString();
+                            lblempty.Text = useroutck.ToString();
                         }
                     }
 

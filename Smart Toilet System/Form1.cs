@@ -16,6 +16,7 @@ namespace Smart_Toilet_System
     public partial class Form1 : Form
     {
         Form2 f2 = null;
+        Form3 f3 = null;
 
         IFirebaseConfig config = new FirebaseConfig
         {
@@ -55,7 +56,7 @@ namespace Smart_Toilet_System
                     {
                         f2 = new Form2();
                     }
-                    f2.Show();
+                    f2.ShowDialog();  
                 }
                 else
                     MessageBox.Show("패스워드가 일치하지 않습니다.", "Warning!");
@@ -64,8 +65,11 @@ namespace Smart_Toilet_System
 
         private void btnNewUser_Click(object sender, EventArgs e)
         {
-            Form3 form3 = new Form3();
-            form3.Show();
+            if (f3 == null)
+            {
+                f3 = new Form3();
+            }
+            f3.ShowDialog();
         }
 
         private void Form1_Load(object sender, EventArgs e)

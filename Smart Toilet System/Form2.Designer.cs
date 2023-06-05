@@ -51,12 +51,12 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.pbUserOut1 = new System.Windows.Forms.PictureBox();
             this.pbUserIn1 = new System.Windows.Forms.PictureBox();
-            this.used = new System.Windows.Forms.TextBox();
-            this.empty = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblused = new System.Windows.Forms.Label();
+            this.lblempty = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbSafe3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbtsChange3)).BeginInit();
@@ -361,24 +361,6 @@
             this.pbUserIn1.TabStop = false;
             this.pbUserIn1.Visible = false;
             // 
-            // used
-            // 
-            this.used.Location = new System.Drawing.Point(230, 312);
-            this.used.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.used.Name = "used";
-            this.used.ReadOnly = true;
-            this.used.Size = new System.Drawing.Size(48, 21);
-            this.used.TabIndex = 4;
-            // 
-            // empty
-            // 
-            this.empty.Location = new System.Drawing.Point(230, 430);
-            this.empty.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.empty.Name = "empty";
-            this.empty.ReadOnly = true;
-            this.empty.Size = new System.Drawing.Size(48, 21);
-            this.empty.TabIndex = 6;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -422,15 +404,37 @@
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
+            // lblused
+            // 
+            this.lblused.AutoSize = true;
+            this.lblused.BackColor = System.Drawing.Color.White;
+            this.lblused.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lblused.Location = new System.Drawing.Point(226, 299);
+            this.lblused.Name = "lblused";
+            this.lblused.Size = new System.Drawing.Size(33, 37);
+            this.lblused.TabIndex = 8;
+            this.lblused.Text = "3";
+            // 
+            // lblempty
+            // 
+            this.lblempty.AutoSize = true;
+            this.lblempty.BackColor = System.Drawing.Color.White;
+            this.lblempty.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lblempty.Location = new System.Drawing.Point(225, 414);
+            this.lblempty.Name = "lblempty";
+            this.lblempty.Size = new System.Drawing.Size(33, 37);
+            this.lblempty.TabIndex = 9;
+            this.lblempty.Text = "0";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1077, 581);
+            this.Controls.Add(this.lblempty);
+            this.Controls.Add(this.lblused);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.empty);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.used);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox1);
@@ -475,8 +479,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.TextBox used;
-        private System.Windows.Forms.TextBox empty;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pbDanger3;
@@ -500,5 +502,7 @@
         private System.Windows.Forms.PictureBox pbUserIn2;
         private System.Windows.Forms.PictureBox pbUserOut1;
         private System.Windows.Forms.PictureBox pbUserIn1;
+        private System.Windows.Forms.Label lblused;
+        private System.Windows.Forms.Label lblempty;
     }
 }

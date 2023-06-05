@@ -32,26 +32,36 @@ namespace Smart_Toilet_System
         {
             FirebaseResponse resp = await client.GetAsync("user/" + txtNewId.Text);
 
+            FirebaseResponse res = await client.GetAsync("ogn/");
+
             Data id = resp.ResultAs<Data>();
+
+            originalnum original = res.ResultAs<originalnum>();
 
             if (id == null)
             {
                 if (txtNewPassword.Text == "" || txtNewPassword2.Text == "")
-                    MessageBox.Show("패스워드를 입력하세요.", "Warning!");
+                    MessageBox.Show("패스워드를 입력하세요", "Warning!");
+                else if (txtNewPassword.Text != txtNewPassword2.Text)
+                {
+                    MessageBox.Show("패스워드가 같지 않습니다.", "Warning!");
+                }
                 else
                 {
-                    if (txtNewPassword.Text == txtNewPassword2.Text)
+                    if (txtogn.Text == original.num)// 고유번호 추가
                     {
                         var data = new Data
                         {
                             ID = txtNewId.Text,
                             PW = txtNewPassword.Text
                         };
-                        SetResponse res = await client.SetAsync("user/" + data.ID, data);
+                        SetResponse response = await client.SetAsync("user/" + data.ID, data);
 
                         MessageBox.Show("회원 가입 성공!", "알림");
                         this.Close();
                     }
+                    else
+                        MessageBox.Show("고유번호가 다릅니다.", "Warning!");
                 }
             }
             else

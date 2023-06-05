@@ -38,12 +38,18 @@
             this.lblNewPassword1 = new System.Windows.Forms.Label();
             this.txtNewId = new System.Windows.Forms.TextBox();
             this.lblNewId = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtogn = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.txtogn);
+            this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.txtNewPassword2);
@@ -58,7 +64,7 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(389, 390);
+            this.groupBox1.Size = new System.Drawing.Size(389, 511);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             // 
@@ -107,7 +113,7 @@
             // btnNewAccount
             // 
             this.btnNewAccount.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnNewAccount.Location = new System.Drawing.Point(232, 326);
+            this.btnNewAccount.Location = new System.Drawing.Point(233, 456);
             this.btnNewAccount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnNewAccount.Name = "btnNewAccount";
             this.btnNewAccount.Size = new System.Drawing.Size(95, 30);
@@ -159,6 +165,38 @@
             this.lblNewId.TabIndex = 1;
             this.lblNewId.Text = "Id";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("굴림", 10F, System.Drawing.FontStyle.Bold);
+            this.label3.Location = new System.Drawing.Point(45, 362);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(190, 14);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "고유 번호를 입력해주세요.";
+            // 
+            // txtogn
+            // 
+            this.txtogn.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtogn.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.txtogn.Location = new System.Drawing.Point(186, 398);
+            this.txtogn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtogn.Name = "txtogn";
+            this.txtogn.Size = new System.Drawing.Size(142, 26);
+            this.txtogn.TabIndex = 10;
+            this.txtogn.UseSystemPasswordChar = true;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.SystemColors.Control;
+            this.label4.Font = new System.Drawing.Font("굴림", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label4.Location = new System.Drawing.Point(44, 398);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(93, 20);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "고유번호";
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -187,5 +225,8 @@
         private System.Windows.Forms.Label lblNewId;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtogn;
+        private System.Windows.Forms.Label label3;
     }
 }
